@@ -1,0 +1,55 @@
+
+import java .util.*;
+public class HelloWorld{
+
+     public static void main(String []args){
+        int d;
+         System.out.println("please enter a number between 0_6");
+        Scanner S = new Scanner(System.in);
+        d=S.nextInt();
+        if (d==0)
+        System.out.println("Saturday");
+        else if (d==1)
+          System.out.println("Sunday");
+        else if (d==2)
+        System.out.println("Monday");
+        else  if (d==3)
+        System.out.println("Tuesday");
+        else   if (d==4)
+        System.out.println("Wednesday");
+        else if (d==5)
+        System.out.println("Thursday");
+        else  if (d==6)
+        System.out.println("Friday");
+        else
+        System.out.println("error");
+     }
+}
+
+
+import java .util.*;
+public class HelloWorld{
+
+     public static void main(String []args){
+        int a;
+         System.out.println("please enter your age");
+        Scanner S = new Scanner(System.in);
+        a=S.nextInt();
+        if (a>=0&&a<=1)
+        System.out.println("infant");
+        else if (a>=2&&a<=4)
+          System.out.println("toddler");
+        else if (a>=5&&a<=12)
+        System.out.println("kid");
+        else  if (a>=13&&a<=19)
+        System.out.println("teenager");
+        else   if (a>=20&&a<=39)
+        System.out.println("adult");
+        else if (a>=40&&a<=59)
+        System.out.println("middle age");
+        else  if (a>=60&&a<=140)
+        System.out.println("senior");
+        else
+        System.out.println("error");
+     }
+}
